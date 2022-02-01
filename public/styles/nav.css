@@ -1,0 +1,48 @@
+nav {
+  height: 120px ;
+  background-color: #4056A1;
+  color: #FFFFFF ;
+  position: relative;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  width: 100%;
+  z-index: -1;
+  }
+  
+  
+  .writeTweet{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    margin-top: 0.1em;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 1.5em;
+  }
+  
+  .Tweeter{
+  font-family: "Bungee";
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+  font-size: 45px;
+  }
+  
+  
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row2 {
+    display: flex;
+    flex-basis: 60%;
+    justify-content: flex-end;
+    
+  }
+  
+  .row2 img {
+    padding-right: 90px;
+  }
+  
