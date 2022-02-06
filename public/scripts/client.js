@@ -11,12 +11,12 @@ $(document).ready(function () {
       url: '/tweets',
       
     }).then((response) => {
-      console.log("RESPONSE: ")
+      console.log("RESPONSE: ");
       console.log(response);
       renderTweets(response);
       // $('#tweet-text').val("");
-      $(".counter").text(140)
-    })
+      $(".counter").text(140);
+    });
   };
 
   $('#errorMessage').hide();
@@ -36,9 +36,7 @@ $(document).ready(function () {
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
   }
-
-
-
+  
   const createTweetElement = function(tweet) {
     let date = new Date(tweet.created_at).toLocaleDateString();
 
