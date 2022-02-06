@@ -1,8 +1,7 @@
 .nav-container {
   position: sticky;
   top: 0;
-  height: 150px ;
-  background-color: #4056A1;
+  height: 120px ;
   color: #FFFFFF ;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -21,7 +20,7 @@
 
 .icon-tweet{
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
 
 }
  #arrow {

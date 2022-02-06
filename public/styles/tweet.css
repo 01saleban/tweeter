@@ -1,4 +1,4 @@
-#tweet-container {
+#tweets-container {
   position: relative;
   margin: auto;
 }
@@ -52,8 +52,12 @@
   margin: 20px;
 }
 
-.name {
-  font-size: 2em;
+#name {
+  justify-content: center;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+  justify-content: center;
+  display: flex;
 }
 
 .date {
@@ -75,6 +79,8 @@
 
 .bottom-icons{
   margin-top: 70px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .icons{

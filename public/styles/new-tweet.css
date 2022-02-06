@@ -1,6 +1,7 @@
 button {
   background-color:#4056A1;
   color: white;
+  font-family: "Bungee";
 }
 button:hover {
   background-color: #27345f;
@@ -35,8 +36,13 @@ input {
   .tweet-bottom {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
   }
 
+  .counter, .input-box {
+    color: rgb(70, 68, 68);
+    font-family: "Bungee";
+  }
 .bottomline {
   display: flex;
   font-family: 'Bungee';
@@ -48,3 +54,11 @@ input {
 .counter.error {
   color: red;
 }
+
+#errorMessage {
+  color: red;
+}
+
+.error {
+  color: red;
+} 
