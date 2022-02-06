@@ -89,7 +89,7 @@ $(document).ready(function () {
         $('#errorMessage').hide();
        loadTweets();
         $("#tweet-text").val("");
-        //code here to emppty text area for every valid tweet
+        
       });
 
 
