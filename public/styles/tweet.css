@@ -1,0 +1,98 @@
+#tweet-container {
+  position: relative;
+  margin: auto;
+}
+
+.tweet:hover {
+  box-shadow: 5px 10px #4057a1c4;
+  color: rgb(58, 54, 54);
+  border: 3px solid rgb(41, 58, 105);
+}
+
+.tweet {
+  background-color: #f4f1ec;
+  height: 280px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 3px solid rgb(121, 118, 118);
+  color: grey;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 2em;
+}
+
+.tweetData {
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgb(2, 1, 1);
+  font-size: 20px;
+  margin: 20px;
+}
+
+.handle{
+  display: none;
+  color:rgb(3, 9, 24);
+  opacity: 45%;
+  float: right;
+  font-size: 35px;
+  margin: 20px;
+}
+
+
+.tweet header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.date {
+  margin: 20px;
+}
+
+/* .icons {
+  padding-right: 20px;
+  padding-bottom: 25px;
+  float: right;
+} */
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  font-size: 75px;
+}
+
+.bottom-icons{
+  margin-top: 70px;
+}
+
+.icons{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 120px;
+  float: right;
+}
+
+#heart:hover{
+  color: red;
+}
+
+#retweet:hover{
+  color: rgb(15, 15, 124);
+}
+
+#flag:hover{
+  color: rgb(177, 177, 66);
+} 
