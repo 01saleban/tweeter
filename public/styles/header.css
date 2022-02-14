@@ -2,7 +2,7 @@
   height: 400px;
   width: 100%;
   background-color:rgb(135, 206, 250);
-  background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");  
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");  
 }
 
 .name {
@@ -15,4 +15,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}

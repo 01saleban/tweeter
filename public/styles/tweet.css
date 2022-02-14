@@ -58,11 +58,14 @@
   margin-bottom: 0;
   justify-content: center;
   display: flex;
+  
+
 }
 
 .date {
   margin: 20px;
 }
+
 
 .avatar {
   width: 70px;
@@ -95,4 +98,4 @@
 
 #flag:hover{
   color: rgb(177, 177, 66);
-} 
+}

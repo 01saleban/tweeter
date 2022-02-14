@@ -20,26 +20,24 @@
 
 .icon-tweet{
   display: flex;
+
 }
- #arrow {
+#arrow {
   color: red;
 }
-  
-  
+
 .writeTweet{
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 30px;
-    margin-top: 0.1em;
-    margin-bottom: 0;
-  }
-  
-  .Tweeter{
-  font-family: "Bungee";
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  position: relative;
-  font-size: 45px;
-  }
-  
-  
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}
+
+.Tweeter{
+font-family: "Bungee";
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+position: relative;
+font-size: 45px;
+}

@@ -3,16 +3,13 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
+ html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/*
- * Global layout stuff
- */
 
 body {
   color: #545149;
@@ -23,15 +20,14 @@ body {
 }
 
 .container{
-  width: 90%;
-  margin: auto;
-  font-family: "Source Sans Pro", sans-serif;
-  }
+width: 90%;
+margin: auto;
+font-family: "Source Sans Pro", sans-serif;
+} 
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-
  .main{
   display: flex;
   flex-direction: column;
@@ -67,7 +63,6 @@ body {
   margin-left: 2em;
   flex-grow: 1;
   flex-basis: auto;
-
 }
 
 
@@ -82,7 +77,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
+  
 }
 
 .tweet {
@@ -91,4 +86,8 @@ body {
   padding-right: 1em;
 }
 
-} 
+}
+
+.error{ 
+  color: red;
+}

@@ -3,15 +3,18 @@ button {
   color: white;
   font-family: "Bungee";
 }
+
 button:hover {
   background-color: #27345f;
 }
+
 input {
   border: 0 none;
   outline: none;
   background-color: transparent;
   width: 100%;
 }
+
 .input-box {
   font-family: 'Sans Pro';
   border: 0 none;
@@ -19,30 +22,30 @@ input {
   padding: 10px 10px;
   outline: none;
 }
-
 #tweet-text {
-  width: 100%;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 5px solid rgb(70, 68, 68);
-  background-color: transparent;
-  
-  }
-  #tweet-text:focus {
-  outline: none;
-  }
-  
-  .tweet-bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  }
+width: 100%;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 5px solid rgb(70, 68, 68);
+background-color: transparent;
 
-  .counter, .input-box {
-    color: rgb(70, 68, 68);
-    font-family: "Bungee";
-  }
+}
+#tweet-text:focus {
+outline: none;
+}
+
+.tweet-bottom {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.counter, .input-box {
+  /* color: rgb(70, 68, 68); */
+  font-family: "Bungee";
+}
+
 .bottomline {
   display: flex;
   font-family: 'Bungee';
@@ -61,4 +64,4 @@ input {
 
 .error {
   color: red;
-} 
+}
