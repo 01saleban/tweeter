@@ -8,6 +8,7 @@ function updateCounter() {
     return $('.counter').removeClass('error');
   }
 }
+
 $(document).ready(function () {
   $("#tweet-text").on('input', updateCounter);
 });
